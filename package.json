@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build && cp -fp build/index.html build/404.html",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -m Deploy -f",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
